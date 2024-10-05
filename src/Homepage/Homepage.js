@@ -154,10 +154,10 @@ const [formData, setFormData] = useState({
         <div
             className={`fixed top-0 w-full z-50 transition-colors duration-300 ease-in-out ${navBackground ? 'bg-[#0f1120]' : 'bg-[#f3f5f9]'}`}
         >
-            <div className="flex justify-between lg:justify-around items-center w-full md:px-10">
+            <div className="flex justify-between lg:justify-around items-center w-full md:px-10 py-5">
                 {/* Logo */}
                 <div>
-                    <img src="https://i.imgur.com/VqKOMWL.png" alt="Logo" className="px-3 lg:px-0 w-[110px]" />
+                    <img src="https://i.imgur.com/CNNJd8z.png" alt="Logo" className="px-3 lg:px-0 w-[80px]" />
                 </div>
 
                 {/* Desktop Links */}
@@ -177,7 +177,7 @@ const [formData, setFormData] = useState({
                 <div className="hidden md:block">
                     <a
                         href="#"
-                        className="py-3 px-10 border border-blue-600 text-blue-600 font-semibold uppercase hover:bg-blue-600 hover:text-white duration-200 ease-in-out"
+                        className="py-3 px-10 border border-purple-600 text-purple-600 font-semibold uppercase hover:bg-purple-600 hover:text-white duration-200 ease-in-out"
                     >
                         Hire Us
                     </a>
@@ -218,7 +218,7 @@ const [formData, setFormData] = useState({
                     </li>
                     <a
                         href="#"
-                        className="py-3 px-10 border border-blue-600 text-blue-600 font-semibold uppercase hover:bg-blue-600 hover:text-white duration-200 ease-in-out"
+                        className="py-3 px-10 border border-purple-600 text-purple-600 font-semibold uppercase hover:bg-purple-600 hover:text-white duration-200 ease-in-out"
                         onClick={toggleMenu}
                     >
                         Hire Us
@@ -231,17 +231,17 @@ const [formData, setFormData] = useState({
         {/* hero */}
         <div className="bg-[#f3f5f9] grid grid-cols-1 lg:grid-cols-2 py-44 px-6 xl:py-44 xl:px-28 items-center">
             <div className=' px-0 '>
-                <h1 className="text-3xl text-wrap sm:text-4xl md:text-5xl lg:text-5xl lg:w-4/5 xl:text-6xl font-bold text-black uppercase text-start pr-0 md:pr-10 lg:pr-44 w-full md:w-[700px]">
+                <h1 className="text-3xl text-wrap sm:text-4xl md:text-5xl lg:text-5xl lg:w-full xl:text-6xl font-bold text-black uppercase text-start pr-0 md:pr-10 lg:pr-44 w-full md:w-[700px]">
                     Building Tomorrow’s Web, Today
                 </h1>
                 <p className="text-black text-base sm:text-lg my-5 md:my-8 lg:my-10 w-full md:w-[400px] lg:w-[500px] text-start">
                     Innovative, scalable web solutions tailored to elevate your digital presence. Let’s craft the future of your online business together.
                 </p>
                 <div className="flex justify-start items-center text-3xl md:text-4xl text-black">
-                    <FaInstagram className="mx-2 md:mx-3"/>
-                    <FaFacebookSquare className="mx-2 md:mx-3"/>
-                    <FaLinkedin className="mx-2 md:mx-3"/>
-                    <BsTwitterX className="mx-2 md:mx-3"/>
+                    <a href=""><FaInstagram className="mx-2 md:mx-3"/></a>
+                    <a href=""><FaFacebookSquare className="mx-2 md:mx-3"/></a>
+                    <a href="www.linkedin.com/in/mohamed-reddam-6477882b1"><FaLinkedin className="mx-2 md:mx-3"/></a>
+                    <a href=""><BsTwitterX className="mx-2 md:mx-3"/></a>
                 </div>
             </div>
 
@@ -262,7 +262,7 @@ const [formData, setFormData] = useState({
                 />
             </div>
             <div className="flex flex-col justify-center items-start text-white px-5 md:px-10 lg:px-20 py-10 md:py-10">
-                <p className="text-blue-600 py-2 px-5 md:px-10 border border-blue-600 rounded-full text-sm sm:text-base md:text-lg">
+                <p className="text-purple-600 py-2 px-5 md:px-10 border border-purple-600 rounded-full text-sm sm:text-base md:text-lg">
                     About
                 </p>
                 <div className="flex justify-start items-center text-3xl sm:text-4xl md:text-5xl font-bold my-5">
@@ -375,7 +375,7 @@ const [formData, setFormData] = useState({
         {/* Contact Form */}
         <div className='grid grid-cols-1 md:grid-cols-2 bg-[#f3f5f9] py-10 p-4 md:p-8 lg:p-28' id='contact'>
             <div className='flex flex-col items-start'>
-                <p className='py-2 px-4 border border-blue-600 rounded-full text-blue-600 inline-block mb-4 md:mb-6'>Contact</p>
+                <p className='py-2 px-4 border border-purple-600 rounded-full text-purple-600 inline-block mb-4 md:mb-6'>Contact</p>
                 <h1 className='text-start text-3xl md:text-4xl lg:text-6xl font-bold mb-4 md:mb-6'>Got a problem to solve?</h1>
                 <p className='text-start text-base md:text-lg lg:text-xl mb-4'>
                     Get your space suit ready and tell us your ideas to develop <span className='font-semibold'>your dream web solution.</span>
@@ -394,7 +394,7 @@ const [formData, setFormData] = useState({
                             value={formData.name}
                             onChange={handleChange}
                             placeholder='Name'
-                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-purple-500 sm:text-sm"
                             required
                         />
                     </div>
@@ -408,7 +408,7 @@ const [formData, setFormData] = useState({
                             value={formData.email}
                             onChange={handleChange}
                             placeholder='Email'
-                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-purple-500 sm:text-sm"
                             required
                         />
                     </div>
@@ -422,18 +422,18 @@ const [formData, setFormData] = useState({
                             onChange={handleChange}
                             rows="4"
                             placeholder='Message'
-                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full px-4 py-3 border border-gray-300 outline-none rounded-md shadow-sm ring-2 focus:ring-purple-500 sm:text-sm"
                             required
                         ></textarea>
                     </div>
 
                     <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-5">
                         <a href="" className='flex items-center text-sm  md:text-md lg:text-lg mt-5 md:mt-0'>
-                            <MdOutlineMailOutline className='mr-2 text-xl  md:text-2xl' />CodeVibes24@gmail.com
+                            <MdOutlineMailOutline className='mr-2 text-xl  md:text-2xl' />reddam.mohamed03@gmail.com
                         </a>
                         <button
                             type="submit"
-                            className=" mt-5 md:mt-0 w-full md:w-1/3 border text-nowrap border-blue-600 text-blue-600 py-3 px-4 hover:bg-blue-600 hover:text-white transition duration-200"
+                            className=" mt-5 md:mt-0 w-full md:w-1/3 border text-nowrap border-purple-600 text-purple-600 py-3 px-4 hover:bg-purple-600 hover:text-white transition duration-200"
                             disabled={loading}
                         >
                             {loading ? 'Sending...' : 'HIRE US'}
@@ -449,7 +449,7 @@ const [formData, setFormData] = useState({
         <div className="flex flex-col items-center bg-[#0f1120] text-white p-10 md:p-28 pb-10">
     <div className="flex flex-col md:flex-row justify-between items-start w-full">
         <div className="text-center md:text-start mb-5 md:mb-0">
-            <img src="https://i.imgur.com/iMNP1T1.png" alt="" className="w-[100px] md:w-[120px]" />
+            <img src="https://i.imgur.com/xeJRuzJ.png" alt="" className="w-[100px] md:w-[120px]" />
         </div>
         <div className="text-center mb-5 md:mb-0">
             <h1 className="text-xl md:text-2xl font-semibold">Quick Links</h1>

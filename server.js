@@ -25,7 +25,7 @@ app.post('/api/contact', (req, res) => {
 
   const mailOptions = {
     from: `email from ${name}`,
-    to: 'codevibes24@gmail.com', // Your email address
+    to: 'reddam.mohamed03@gmail.com', // Your email address
     subject: `Contact form submission from ${name}`,
     text: `You have received a new message from ${name} (${email}):\n\n${message}`,
   };

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/codevibes.ma/static/css/main.31e92568.css",
-    "main.js": "/codevibes.ma/static/js/main.7370060e.js",
-    "static/js/453.19fe490f.chunk.js": "/codevibes.ma/static/js/453.19fe490f.chunk.js",
-    "static/media/logo.svg": "/codevibes.ma/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/codevibes.ma/index.html",
-    "main.31e92568.css.map": "/codevibes.ma/static/css/main.31e92568.css.map",
-    "main.7370060e.js.map": "/codevibes.ma/static/js/main.7370060e.js.map",
-    "453.19fe490f.chunk.js.map": "/codevibes.ma/static/js/453.19fe490f.chunk.js.map"
+    "main.css": "/MohamedReddam/static/css/main.9f8a3bb4.css",
+    "main.js": "/MohamedReddam/static/js/main.d7c3e012.js",
+    "static/js/453.19fe490f.chunk.js": "/MohamedReddam/static/js/453.19fe490f.chunk.js",
+    "static/media/logo.svg": "/MohamedReddam/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MohamedReddam/index.html",
+    "main.9f8a3bb4.css.map": "/MohamedReddam/static/css/main.9f8a3bb4.css.map",
+    "main.d7c3e012.js.map": "/MohamedReddam/static/js/main.d7c3e012.js.map",
+    "453.19fe490f.chunk.js.map": "/MohamedReddam/static/js/453.19fe490f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e92568.css",
-    "static/js/main.7370060e.js"
+    "static/css/main.9f8a3bb4.css",
+    "static/js/main.d7c3e012.js"
   ]
 }
